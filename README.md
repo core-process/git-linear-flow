@@ -21,9 +21,9 @@ git rebase --onto origin/<branch> origin/<branch>@{1} <branch>
 
 ## Rule #2
 
-**Remember: rebase instead of merge**
+**Remember: interactive-rebase instead of merge**
 
-Use `git rebase -i <other-branch>` instead of `git merge <other-branch>` to update your current branch.
+Use `git rebase -i <other-branch>` instead of `git merge <other-branch>` to update your current branch. Always use *interactive* (`-i`) rebase!
 
 Make sure the team adheres to rule #1 to avoid unintended side-effects.
 
