@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1, h2 {
+    color: white;
+}
+
+header {
+    border-bottom-color: rgba(66,129,164,.8);
+}
+
+header h1,
+code.highlighter-rouge {
+    color: rgba(66,129,164,.8);
+}
