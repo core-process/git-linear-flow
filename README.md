@@ -2,7 +2,7 @@
 
 **Value proposition: a git workflow, ensuring clean and readable linear commit histories everywhere and anytime**
 
-Git commit histories can become messy and intransparent. We propose a git workflow which ensures clean and readable linear commit histories at any anytime and any branch.
+Git commit histories can become messy and intransparent. We propose a git workflow which ensures clean and readable linear commit histories at anytime and any branch.
 
 ## Rule #1
 
@@ -31,7 +31,7 @@ Use the safe `git push --force-with-lease` to avoid losing work when you update 
 
 ## Rule #3
 
-**Remember: fast forward only**
+**Remember: fast forward merges only**
 
 Use `git merge --ff-only` instead of `git merge` as a safeguard. Once you follow rule #1 and #2, all merges will be fast-forward merges only. `--ff-only` is a simple shield to ensure you did not break one of the first two rules.
 
